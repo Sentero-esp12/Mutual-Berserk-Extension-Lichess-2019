@@ -1,0 +1,86 @@
+﻿
+#offerB {
+    background-color: darkred;
+    color:white;
+    
+    height: 25px;
+        width: 130px;
+    font-size:15px;
+    outline:none;
+border-radius:15px;
+    font-weight:bold;
+    border-style: solid;
+  border-width: 1px;
+     border-color: white;
+}
+
+#offerB:hover {
+    background-color: #ffd074;   
+   border-style: solid;
+  border-width: 1px;
+     border-color: white;
+    
+}
+#offerB:active {
+    background-color: #7b5757; 
+}
+
+#paragraph{
+     margin-top:5px;
+}
+#alwaysB {
+  position: absolute;
+  display: inline-block;
+      width: 30px;
+ margin-left:0px;
+    height: 16px;
+    color:blue;
+     margin-top:2px;
+}
+#berB {
+  position: absolute;
+  display: inline-block;
+      width: 30px;
+ margin-left:0px;
+    height: 16px;
+    color:blue;
+     margin-top:2px;
+}
+
+#alwaysO {
+  position: absolute;
+  display: inline-block;
+      width: 30px;
+ margin-left:0px;
+    height: 16px;
+    color:blue;
+     margin-top:2px;    
+}
+
+
+#div1{
+    position:absolute;
+    padding-top:70px;
+}
+#div1 > * {
+    margin-top:5px;
+}
+
+/*.setup { text-indent: -9999px; line-height: 0; } .setup::after { content: "⅛+0 • Casual • NanoBullet"; text-indent: 0; display: block; line-height: initial; }
+*/
+
+#iframe{
+    display:none;
+width:700px;
+    height:600px;
+}
+/*
+.analyse__board, .analyse .intro {
+    display:none;
+}*/
+
+button.fbt.draw-yes{
+
+pointer-events:none !important;
+}
+
